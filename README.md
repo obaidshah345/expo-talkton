@@ -85,13 +85,13 @@ The app communicates with a backend built using Node.js, Express, and Pusher for
 
 To deploy the Talkton mobile application built with Expo, we have a couple of options depending on your target platform: Android, iOS, or both. The process involves building the application and then distributing it via the app stores. Here’s a step-by-step guide for deploying the app using Expo’s managed workflow.
 
-## 1. Prerequisites
+### 1. Prerequisites
 
 - Ensure you have an Expo account. If not, create one at [Expo.io](https://expo.io/).
 
-## 2. Building the App
+### 2. Building the App
 
-### For Android
+#### For Android
 
 1. **Install EAS CLI**:
     ```sh
@@ -115,7 +115,7 @@ To deploy the Talkton mobile application built with Expo, we have a couple of op
     - Expo will start the build process. You can follow the progress in the terminal or online on the Expo website.
     - Once the build is complete, you will get a link to download the APK or AAB file.
 
-### For iOS
+#### For iOS
 
 1. **Ensure You Have an Apple Developer Account**:
     - You need to be part of the Apple Developer Program to publish to the App Store.
@@ -132,9 +132,9 @@ To deploy the Talkton mobile application built with Expo, we have a couple of op
     - Expo will start the build process. You can follow the progress in the terminal or online on the Expo website.
     - Once the build is complete, you will get a link to download the `.ipa` file.
 
-## 3. Distributing the App
+### 3. Distributing the App
 
-### For Android
+#### For Android
 
 1. **Upload the APK/AAB to Google Play Console**:
     - Go to the [Google Play Console](https://play.google.com/apps/publish/).
@@ -143,7 +143,7 @@ To deploy the Talkton mobile application built with Expo, we have a couple of op
     - Follow the steps to complete the store listing, content rating, and pricing & distribution.
     - Review and roll out the release to the production track.
 
-### For iOS
+#### For iOS
 
 1. **Upload the IPA to App Store Connect**:
     - You can use Transporter (a macOS app) or Application Loader (part of Xcode) to upload your `.ipa` file to App Store         Connect.
