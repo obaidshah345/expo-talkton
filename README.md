@@ -11,9 +11,7 @@ The app communicates with a backend built using Node.js, Express, and Pusher for
 - [Getting Started](#getting-started)
 - [Configuration](#configuration)
 - [Running the App](#running-the-app)
-- [Real-Time Updates with Pusher](#real-time-updates-with-pusher)
-- [Contributing](#contributing)
-- [License](#license)
+- [Deployment](#deployment)
 
 ## Features
 
@@ -83,7 +81,7 @@ The app communicates with a backend built using Node.js, Express, and Pusher for
 
 2. Use the Expo Go app on your mobile device to scan the QR code displayed in the terminal or browser.
 
-# Talkton Mobile App Deployment Guide
+## Deployment
 
 To deploy the Talkton mobile application built with Expo, we have a couple of options depending on your target platform: Android, iOS, or both. The process involves building the application and then distributing it via the app stores. Here’s a step-by-step guide for deploying the app using Expo’s managed workflow.
 
