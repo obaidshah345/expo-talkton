@@ -4,6 +4,17 @@
     "slug": "talkton",
     "scheme": "talkton",
     "version": "1.0.0",
+    "extra": {
+      "API_BASE_URL": "http://localhost:3000",
+      "PUSHER_APP_KEY": "your_pusher_key",
+      "PUSHER_CLUSTER": "your_pusher_cluster",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "05f17682-19b4-4116-b27e-bade67fb8b0d"
+      }
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,16 +36,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "05f17682-19b4-4116-b27e-bade67fb8b0d"
-      }
-    }
+    "plugins": ["expo-router"]
   }
 }

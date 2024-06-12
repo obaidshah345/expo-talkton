@@ -1,10 +1,14 @@
 import axios from "axios";
 import Pusher from "pusher-js/react-native";
+import Constants from "expo-constants";
 
-const API_URL = "http://192.168.18.22:3000/api"; // replace with your own local IP
+const { API_BASE_URL, PUSHER_APP_KEY, PUSHER_CLUSTER } =
+  Constants.manifest2.extra;
 
-const pusher = new Pusher("YOUR_APP_KEY", {
-  cluster: "YOUR_CLUSTER",
+const API_URL = API_BASE_URL;
+
+const pusher = new Pusher(PUSHER_APP_KEY, {
+  cluster: PUSHER_CLUSTER,
   encrypted: true,
 });
 
