@@ -34,7 +34,7 @@ The app communicates with a backend built using Node.js, Express, and Pusher for
 
 ### Prerequisites
 
-- Node.js (>= 12.x)
+- Node.js (>= 18.x)
 - npm (>= 6.x)
 - Expo CLI (>= 4.x)
 
@@ -42,7 +42,7 @@ The app communicates with a backend built using Node.js, Express, and Pusher for
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/talkton-mobile.git
+    git clone https://github.com/obaidshah345/talkton-mobile.git
     cd talkton-mobile
     ```
 
