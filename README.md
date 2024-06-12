@@ -42,8 +42,8 @@ The app communicates with a backend built using Node.js, Express, and Pusher for
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/obaidshah345/talkton-mobile.git
-    cd talkton-mobile
+    git clone https://github.com/obaidshah345/expo-talkton.git
+    cd expo-talkton
     ```
 
 2. Install dependencies:
