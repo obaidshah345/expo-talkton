@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "talkton",
+    "name": "Talkton",
     "slug": "talkton",
+    "scheme": "talkton",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.oeontec.talkton"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "05f17682-19b4-4116-b27e-bade67fb8b0d"
+      }
     }
   }
 }
